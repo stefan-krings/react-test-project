@@ -1,5 +1,12 @@
+import './NewExpense.css';
+import ExpenseForm from './ExpenseForm';
+
 const NewExpense = (props) => {
-  return <div></div>;
+  return (
+    <div className='new-expense'>
+        <ExpenseForm></ExpenseForm>
+    </div>
+  );
 };
 
 export default NewExpense;
